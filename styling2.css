@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&display=swap');
+*{ 
+ 
+ }
+ body{
+    font: Arial, helvetica, sans-serif;
+    background-image: url("pexels-pixabay-373543.jpg");
+}
+#container{
+    width: 1050px;
+/*    border: 1px solid grey;*/
+    height: auto;
+    margin: 0 auto;
+   
+}
+
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+    
+}
+#brand{
+    float: none;
+    background-color: rgb(4, 4, 78);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 1270px;
+    margin-left: -100px;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color:rgb(189, 195, 199);
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+
+#searchbox{
+    float: right;
+    background-color: rgb(4, 4, 78);
+    /* background: linear-gradient(#bdfd01, #b6ff00);
+    background: -webkit-linear-gradient(#bdfd01, #b6ff00);
+    background: -o-linear-gradient(#bdfd01, #b6ff00);
+    background: -ms-linear-gradient(#bdfd01, #b6ff00);
+    background: -moz-linear-gradient(#bdfd01, #b6ff00); */
+    /* width: 400px;
+    height: 50px; */
+    padding:10px 10px 0 20px;
+    margin-top: -75px;
+    margin-right: 20px;
+}
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color:rgb(55, 65, 64);
+    background: white url(search.png)right center no-repeat;
+    border: 1px solid #f6e16d;
+}
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(55, 65, 64);
+    background: rgb(189, 195, 199);
+    font-size: 15px;
+}
+.clear{
+    clear: both;
+}
+
+ul{
+    list-style: none;
+    
+}
+#menu{
+    
+    height: 70px;
+    /* background-color: rgb(233, 232, 232),rgb(4, 4, 78),; */
+    background: -webkit-linear-gradient(rgb(4, 4, 78),rgb(189, 195, 199));
+    background: -o-linear-gradient (rgb(4, 4, 78),rgb(189, 195, 199));
+    background: -ms-linear-gradient(rgb(4, 4, 78),rgb(189, 195, 199));
+    background: -moz-linear-gradient(rgb(4, 4, 78),rgb(189, 195, 199));
+    background: linear-gradient(rgb(4, 4, 78),rgb(189, 195, 199));
+    padding: 7px 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+    width: 1270px;
+    margin-left: -100px;
+   
+}
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 20px;
+    border-right: 1px solid rgb(189, 195, 199);
+}
+#menu ul li:last-child{
+    border-right:none; 
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: 'Fjalla One', sans-serif;
+    color:rgb(189, 195, 199);
+    line-height: 20px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover,#menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(217, 203, 158);
+}
+#heading{
+
+    color:#73c495;
+}
+.sidebar{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 500px;
+    width: 450px;
+    border:1px solid rgb(135, 136, 136);
+    border-radius: 20px;
+    padding: 10px 30px;
+    
+    }
+.sidebar h3{
+    color: #b314db;
+    font-size: 30px;
+    
+    }
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#eaf6de;
+    /* padding:50px; */
+    
+}
+.sidebar ul{
+    padding-top: 8px;
+}
+#leftsidebar ul li{
+    padding: 4px 0 4px 10px;
+  
+    /* list-style-image: url(images/arrow.png); */
+              
+}
+#rightsidebar ul li{
+    
+    padding: 17px 0 17px 70px;
+     background: url(images/tick2.png) no-repeat left center;
+        
+}
+.sidebar ul li a:hover{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(217, 203, 158);
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+#leftsidebar{
+    float: left;
+    color:rgb(189, 195, 199);
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(55, 65, 64);
+}
+#rightsidebar{
+    float: right;
+    color: rgb(55, 65, 64);
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(189, 195, 199);
+}
+.footer{
+     
+    background: -webkit-linear-gradient(rgb(135, 136, 136),rgb(4, 4, 78));
+    background: -o-linear-gradient (rgb(189, 195, 199),rgb(4, 4, 78));
+    background: -moz-linear-gradient(rgb(189, 195, 199),rgb(4, 4, 78));
+    background: -ms-linear-gradient(rgb(189, 195, 199),rgb(4, 4, 78));
+    background: linear-gradient(rgb(189, 195, 199),rgb(4, 4, 78));
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    width: 1270px;
+    margin-left: -100px;
+    color: rgb(189, 195, 199);
+    
+}
+#answer{
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  #pic{
+      margin-top:10px ;
+  }
+ 
+/* fffffffffffffffffff */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  #head{
+      color:white;
+      background-color:#4CBB9B ;
+      width: 425px;
+      margin-left: 330px;
+  }
+  .column {
+    margin-left: 330px;  
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 0 px;
+    background-color:#4CBB9B ;
+  }
+  
+  .card {  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+      float:middle;
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: #000;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  
