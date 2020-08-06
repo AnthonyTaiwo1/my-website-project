@@ -3,6 +3,7 @@
 *{ 
   
  }
+ 
 body{
     font: Arial, helvetica, sans-serif;
     background-image: url("pexels-pixabay-373543.jpg");
@@ -159,7 +160,7 @@ ul{
 #rightsidebar ul li{
     
     padding: 17px 0 17px 70px;
-     background: url(images/tick2.png) no-repeat left center;
+     /* background: url(images/tick2.png) no-repeat left center; */
         
 }
 .sidebar ul li a:hover{
@@ -190,11 +191,12 @@ ul{
     background: -ms-linear-gradient(rgb(189, 195, 199),rgb(4, 4, 78));
     background: linear-gradient(rgb(189, 195, 199),rgb(4, 4, 78));
     padding: 10px 20px;
-    margin-top: 15px;
+    margin-top: 90px;
     border-radius: 20px;
     width: 1270px;
     margin-left: -100px;
     color: rgb(189, 195, 199);
+    
     
 }
 #answer{
